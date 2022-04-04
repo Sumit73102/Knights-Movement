@@ -1,0 +1,39 @@
+.chessboard {
+    width: 640px;
+    height: 640px;
+    margin: auto;
+    border: 25px solid #333;
+	position: center
+}
+.black:hover{
+	background-color: #998;
+	border: 40px;
+	border-color: #ffe;
+}
+.white:hover{
+	background-color: #ffe;
+}
+.black {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #999;
+      font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+.white {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+
+body {
+    background-image: url('pic1.png');
+}
